@@ -1,0 +1,44 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding:15px;
+}
+h1{
+    color:white;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-evenly;
+    margin:50px;
+}
+.item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20 px;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu a{
+    margin-left: 20px;
+}
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
